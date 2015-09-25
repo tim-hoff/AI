@@ -5,6 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0-alpha4"]
 								[criterium "0.4.3"]]
+  :plugins [[codox "0.8.13"]]
   :main ^:skip-aot ai.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
