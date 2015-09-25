@@ -150,6 +150,7 @@
 
 ;; ----- main -----
 (defn -main
+  "AI\nAssignment 1: Missionary & Cannibals"
   [& args]
   (println "\nAll possible state w/ boat on left side")
   (println left-state)
